@@ -3,7 +3,7 @@
 #### 介绍
 参考 [xaringan](https://slides.yihui.org/xaringan) 包自带的metropolis.css，使用 [SISU VI - B-5.03 PPT](http://www.shisu.edu.cn/about/identity-guidelines) 的元素制作的上外 xaringan 幻灯片主题。禁止商用。目前使用 CC-BY-NC 4.0 许可证。
 
-[示例网页](https://mrccmmt-sinicvs.github.io/xaringan-theme-sisu/sample/index.html)。Noto 系列字体可从 https://www.google.cn/get/noto/ 下载。
+[示例网页](https://mrccmmt-sinicvs.github.io/xaringan-theme-sisu/sample/index.html)。Noto 系列字体可从[这里](https://www.google.cn/get/noto/)下载。
 
 版本：v. 1.0 (2021-01-24)
 
