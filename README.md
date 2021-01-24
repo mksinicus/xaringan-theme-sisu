@@ -3,6 +3,8 @@
 #### 介绍
 参考 [xaringan](https://slides.yihui.org/xaringan) 包自带的metropolis.css，使用 [SISU VI - B-5.03 PPT](http://www.shisu.edu.cn/about/identity-guidelines) 的元素制作的上外 xaringan 幻灯片主题。禁止商用。目前使用 CC-BY-NC 4.0 许可证。
 
+版本：v. 1.0 (2021-01-24)
+
 #### 软件架构
 内容包含背景素材（`bg/` 文件夹，来源于[SISU | 视觉标识](http://www.shisu.edu.cn/about/identity-guidelines)）、主题 css（`sisu.css`）、字体 css（`zh-sans.css` 和 `zh-serif.css`）以及一个示例文档 `xar.sisu.Rmd`。
 
