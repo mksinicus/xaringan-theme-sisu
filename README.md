@@ -13,7 +13,7 @@
 #### 使用说明
 
 1.  可直接下载压缩包。可参照示例 Rmd 文档使用。
-2.  建议使用 R Studio。需要安装 R Markdown 包和 xaringan 包，并按照提示下载其他缺失的包。
+2.  建议使用 RStudio。需要安装 R Markdown 包和 xaringan 包，并按照提示下载其他缺失的包。
 3.  详细请参考 [xaringan 官方文档](https://slides.yihui.org/xaringan/zh-CN.html)。
 4.  **不得作商业用途**[^1]。
 
