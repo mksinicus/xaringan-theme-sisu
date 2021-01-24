@@ -17,4 +17,4 @@
 3.  详细请参考 [xaringan 官方文档](https://slides.yihui.org/xaringan/zh-CN.html)。
 4.  **不得作商业用途**[^1]。
 
-[^1]: 参考 http://www.shisu.edu.cn/about/identity-guidelines。
+[^1]: 参考 http://www.shisu.edu.cn/about/identity-guidelines 。
