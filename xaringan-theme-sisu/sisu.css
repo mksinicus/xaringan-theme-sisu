@@ -1,0 +1,194 @@
+/* background image */
+.remark-slide-content {
+  background-image: url("bg/2slides.jpeg");
+  background-position: center;
+  background-size: contain;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.6;
+  margin-top: -90px;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 3.5em;
+  padding-right: 4em;
+  font-size: 80%;
+}
+a {
+	text-decoration: underline;
+    color: #359;
+}
+h1 {
+  margin-top: -5px;
+  font-weight: normal;
+  color: #FAFAFA;
+}
+.center h1{
+  color: #111;
+}
+.inverse h1, .inverse h2, .inverse h3, .inverse h4{
+  color: #EEE;
+}
+h2, h3, h4 {
+  color: #111;
+  font-weight: normal;
+  text-align: left;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.inverse, .title-slide {
+  color: #EEE;
+  background-image: url("bg/1title.jpeg");
+  background-position: center;
+  background-size: contain;
+}
+.thanks-slide {
+  background-image: url("bg/3fin.jpeg");
+  background-position: center;
+  background-size: contain;
+}
+
+.title-slide h1, .title-slide h2, .title-slide h3, .title-slide h4 {
+  color: #EEE;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+.title-slide h2 {
+  margin: 0 0 20px 0;
+}
+
+.remark-slide-content h1 {
+  font-size: 45px;
+}
+
+.remark-slide-content h2 {
+  font-size: 35px;
+}
+
+.remark-slide-content h3 {
+  font-size: 30px;
+}
+
+.left-column h2, .left-column h3, .left-column h4 {
+  color: #777;
+}
+
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #1A292C;
+}
+
+.title-slide h1, .thanks-slide h1 {
+  font-size: 64px;
+}
+/* customized: thanks-slide */
+.thanks-slide h1, .thanks-slide h2 {
+  color: #333;
+  text-align: center;
+}
+.thanks-slide h1 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  margin: -20px 0;
+  transform: translateX(-50%) translateY(-50%);
+}
+.thanks-slide h2 {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  margin: 10px 0;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* Two-column layout */
+.left-column {
+  color: #777;
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #000;
+}
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+.pull-right + * {
+  clear: both;
+}
+
+img, video, iframe {
+  max-width: 100%;
+}
+blockquote {
+  border-left: 5px solid #0062AC;
+  padding-left: 1em;
+  color: #333;
+}
+.remark-slide table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+.remark-slide table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #eee }
+
+hr, .footnote::before {
+  content: '';
+  display: block;
+  border: none;
+  background-color: #DDD;
+  color: #DDD;
+  height: 1px;
+}
+
+.remark-slide-number {
+  font-size: 13pt;
+  color: #DEDEDE;
+  opacity: 1;
+}
+
+/* turns off slide numbers for title page: https://github.com/gnab/remark/issues/298 */
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+.remark-code {
+  color: #000;
+  background-color: #F5F5F5;
+  font-variant-ligatures: none;
+  font-family: "JetBrains Mono", "Noto Sans Mono", "Noto Sans Mono CJK SC", "Microsoft Yahei", monospace !important;
+  border-left: 4px solid #0062AC;
+}
+
+.remark-inline-code {
+  color: #000;
+  background: #F5F5F5; /* lighter */
+  /* background: #e7e8e2; /* darker */
+  border-radius: 3px;
+  padding: 2px;
+}
+.remark-code-line-highlighted     { background-color: #ffff88; }
+
+@page { margin: 0; }
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}

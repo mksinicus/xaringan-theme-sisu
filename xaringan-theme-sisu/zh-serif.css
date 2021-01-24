@@ -1,0 +1,14 @@
+body {
+	font-family: "Noto Serif", "Noto Serif CJK SC Regular", "Cambria", "Songti SC", serif;
+	line-height: 1.8;
+}
+
+h1, h2, h3 {
+	font-family: "Noto Serif", "Noto Serif CJK SC Regular", "Cambria", "Songti SC", serif;
+	font-weight: normal;
+}
+
+.remark-code, .remark-inline-code { 
+	font-family: "JetBrains Mono", "Noto Sans Mono", "Noto Sans Mono CJK SC", "Microsoft Yahei", Monaco, monospace; 
+}
+

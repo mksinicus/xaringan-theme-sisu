@@ -1,0 +1,156 @@
+---
+title: "示例"
+subtitle: "副标题"
+author: "SISUer"
+institute: "上海外国语大学某某院系"
+date: "YYYY-MM-DD (v1.0 updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: [sisu.css,zh-sans.css]
+    self_contained: false
+    nature:
+      highlightStyle: default
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: center, middle
+
+# xaringan
+
+### <center>/ʃaː.'riŋ.ɡan/</center>
+
+请参考 [xaringan 官方文档](https://slides.yihui.org/xaringan/zh-CN.html)。<br>
+建议使用 [R Studio](https://rstudio.com)。
+
+---
+
+# 一级标题
+
+## 二级标题
+
+### 三级标题
+
+内容
+
+--
+
+其他内容
+
+---
+
+# 左右两栏
+
+.pull-left[
+## 二级标题
+
+内容<sup>1<sup>
+]
+
+.pull-right[
+## 二级标题
+
+### 三级标题
+
+内容<sup>*</sup>
+]
+
+.footnote[
+[1] 脚注形式可以随意编辑  
+(*) 多个脚注之间建议用markdown的换行方式（两个空格加换行），或者用html的`<br>`
+]
+
+---
+
+# 图片
+
+![shisu](http://www.shisu.edu.cn/PicaResources/Default/Image/2016-05-11/1b63c9a8-7356-4ecb-b337-40bbb72df5c4/sisusupportinggraphics-153817.jpg)
+
+---
+
+# 图片（续）
+
+![](http://lib.shisu.edu.cn/_upload/article/images/55/75/6e3e60fa4e3fbe9198965ae5694b/96e80316-a917-437b-8886-3e67d36218e9.jpg)
+
+--
+
+![](http://lib.shisu.edu.cn/_upload/tpl/00/03/3/template3/images/fuw1.jpg)
+--
+![](http://lib.shisu.edu.cn/_upload/tpl/00/03/3/template3/images/fuw2.jpg)
+
+---
+
+# 表格
+
+## 拉丁语第1/2变格法（一般情况）
+
+使用markdown语法<sup>1</sup>
+
+| <sub>格</sub> \ <sup>数</sup>  | 单数   | 复数     | 单数   | 复数     | 单数  | 复数    |
+| -------- | ------ | -------- | ------ | -------- | ----- | ------- |
+| **主格** | amīca  | amīcae   | amīcus | amīcī    | dōnum | dōna    |
+| **属格** | amīcae | amīcārum | amīcī  | amīcōrum | dōnī  | dōnōrum |
+| **与格** | amīcae | amīcīs   | amīcō  | amīcīs   | dōnō  | dōnīs   |
+| **宾格** | amīcam | amīcās   | amīcum | amīcōs   | dōnum | dōna    |
+| **夺格** | amīcā  | amīcīs   | amīcō  | amīcīs   | dōnō  | dōnīs   |
+| **呼格** | amīca  | amīcae   | amīce  | amīcī    | dōnum | dōna    |
+
+.footnote[
+1. 表格用[Typora](https://typora.io)进行编辑会比较方便
+]
+
+---
+
+# 代码块和引用
+
+左边界的颜色是上外蓝`#0062AC`
+
+## 代码块
+
+```R
+data1 <- read.table("data.txt",header=T,sep="\t")
+str(data1)
+```
+
+## 引用
+
+中间插入一个空格实体，避免被当成同一段引用
+
+> A quick brown fox jumps over the lazy dog.
+
+&ensp;
+
+> 力微任重久神疲，`(这里插入两个空格进行换行)`  
+> 再竭衰庸定不支。
+
+---
+class: inverse
+
+# 反转色
+
+## 二级标题
+
+### 三级标题
+
+内容
+
+---
+
+# 多余的话
+
+- front matter 中的 `self_contained` 后改为 true 即可生成可以独立运行的演示文件
+- 使用 **Noto** 系列字体效果最佳，支持拉丁字母、希腊字母和西里尔字母的各种附标以及国际音标的大多数符号。把 front matter 的 `css:` 后的 `zh-sans.css` 改为 `zh-serif.css` 即可切换成 Noto 系列的衬线体。当然，字体可以在css中自定义。
+  - 本主题的字体 css 在 Noto 之外规定了系统中找不到 Noto 字体时的备选字体，应该是大多数 Windows 终端上都有的，风格上应该也还算搭：  
+  Sans 的备选字体是 <u>Arial + 微软雅黑</u>，Serif 的备选字体是 <u>Cambria + 宋体</u>
+- 使用 Chrome 或者 Edge 之类的浏览器可以把幻灯片导出成 pdf 文件，这样就不用操心跨平台的字体或者布局问题了。右键打印，默认的选项就好。
+- 建议使用 Typora 编辑器书写 markdown。懂点 css 和 html 尤佳。Visual Studio Code 也是不错的免费编辑器。
+
+---
+class: thanks-slide
+
+# 谢谢！
+
+## <span style="font-variant:small-caps">Thank you for your time!</span>
+
+???
+
+我定义了一个`.thanks-slide`，并且在 css 中让这一页的 h1 处于中间偏上(40%)的位置，而 h2 在其下方(45%)（受技术所限。可能有更好的解决办法），来让 h2 不与背景的蓝色部分重叠。我假定在这一页应该不需要其他的话了……
