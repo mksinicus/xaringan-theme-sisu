@@ -3,7 +3,7 @@
 #### 介绍
 参考 [xaringan](https://slides.yihui.org/xaringan) 包自带的 metropolis.css，使用 [SISU VI - B-5.03 PPT](http://www.shisu.edu.cn/about/identity-guidelines) 的元素制作的上外 xaringan 幻灯片主题。禁止商用。目前使用 CC-BY-NC 4.0 许可证。
 
-[示例网页](https://mrccmmt-sinicvs.github.io/xaringan-theme-sisu/sample/index.html)；[导出的pdf版](https://mrccmmt-sinicvs.github.io/xaringan-theme-sisu/sample/sample.pdf)。Noto 系列字体可从[这里](https://www.google.cn/get/noto/)下载。
+[示例网页](https://mksinicus.github.io/xaringan-theme-sisu/sample/index.html)；[导出的pdf版](https://mksinicus.github.io/xaringan-theme-sisu/sample/sample.pdf)。Noto 系列字体可从[这里](https://www.google.cn/get/noto/)下载。
 
 版本：v. 1.0 (2021-01-24)
 
@@ -12,7 +12,7 @@
 
 #### 使用说明
 
-1.  可直接[下载压缩包](https://mrccmmt-sinicvs.github.io/xaringan-theme-sisu/xaringan-theme-sisu.zip)。可参照示例 Rmd 文档使用。
+1.  可直接[下载压缩包](https://mksinicus.github.io/xaringan-theme-sisu/xaringan-theme-sisu.zip)。可参照示例 Rmd 文档使用。
 2.  建议使用 RStudio。需要安装 R Markdown 包和 xaringan 包，并按照提示下载其他缺失的包。
 3.  详细请参考 [xaringan 官方文档](https://slides.yihui.org/xaringan/zh-CN.html)。
 4.  **不得作商业用途**[^1]。
